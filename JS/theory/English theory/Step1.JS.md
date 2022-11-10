@@ -38,7 +38,7 @@ Time to introduce the document.write() function. This is what we need to use to 
 Feeling fancy? Of course you are! You can also use standard HTML markup language to customize the appearance text in the output:
 
 <script> 
-document. write ("<h1>Hello World!</h1>"); 
+document. write ( "<h1>Hello World!</h1>" ); 
 </script>
 Heads up!
 document.write() should be used only for testing. We’ll cover some other output mechanisms real soon.
