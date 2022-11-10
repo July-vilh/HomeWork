@@ -1,0 +1,281 @@
+{
+	"info": {
+		"_postman_id": "134b5b25-a7bd-4686-84a7-a1c48474782f",
+		"name": "HW. Postman",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get method (ep1)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5006/get_method?age=24&name=July",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5006",
+					"path": [
+						"get_method"
+					],
+					"query": [
+						{
+							"key": "age",
+							"value": "24"
+						},
+						{
+							"key": "name",
+							"value": "July"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST method (ep2)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "July",
+							"type": "default"
+						},
+						{
+							"key": "age",
+							"value": "24",
+							"type": "default"
+						},
+						{
+							"key": "salary",
+							"value": "500",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5005/user_info_3",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5005",
+					"path": [
+						"user_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "a",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get method2 (ep3)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5006/object_info_1?name=July&age=24&weight=43",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5006",
+					"path": [
+						"object_info_1"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "July"
+						},
+						{
+							"key": "age",
+							"value": "24"
+						},
+						{
+							"key": "weight",
+							"value": "43"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get method3 (ep4)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5006/object_info_2?name=July&age=24&salary=500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5006",
+					"path": [
+						"object_info_2"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "July"
+						},
+						{
+							"key": "age",
+							"value": "24"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get method4 (ep5)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5006/object_info_3?name=July&age=24&salary=500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5006",
+					"path": [
+						"object_info_3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "July"
+						},
+						{
+							"key": "age",
+							"value": "24"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get method4 (ep6)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://162.55.220.72:5006/object_info_4?name=July&age=24&salary=500",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5006",
+					"path": [
+						"object_info_4"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "July"
+						},
+						{
+							"key": "age",
+							"value": "24"
+						},
+						{
+							"key": "salary",
+							"value": "500"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST method2 (ep7)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "July",
+							"type": "default"
+						},
+						{
+							"key": "age",
+							"value": "24",
+							"type": "default"
+						},
+						{
+							"key": "salary",
+							"value": "500",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://162.55.220.72:5006/user_info_2",
+					"protocol": "http",
+					"host": [
+						"162",
+						"55",
+						"220",
+						"72"
+					],
+					"port": "5006",
+					"path": [
+						"user_info_2"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
