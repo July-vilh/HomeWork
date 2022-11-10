@@ -35,14 +35,6 @@ Notice some extra stuff there? Nothing gets past you!
 
 Time to introduce the document.write() function. This is what we need to use to write text into our HTML document.
 
-Feeling fancy? Of course you are! You can also use standard HTML markup language to customize the appearance text in the output:
-
-<script> 
-document. write ( "<h1>Hello World!</h1>" ); 
-</script>
-Heads up!
-document.write() should be used only for testing. We’ll cover some other output mechanisms real soon.
-
 Output to console
 Right, we’re now experts in writing HTML output with document.write().
 Time for a different type of output. Let’s learn about output to the browser console.
