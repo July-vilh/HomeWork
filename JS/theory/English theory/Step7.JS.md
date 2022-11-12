@@ -9,14 +9,19 @@ We’ll start here with the classic for loop.
 Here's the syntax:
 
 for (statement 1; statement 2; statement 3) { 
+
 code block to be executed 
+
 }
 
 And here’s what happens when it runs:
 
 Statement 1 is executed before the loop (the code block) starts.
+
 Statement 2 defines the condition for running the loop (the code block).
+
 Statement 3 is executed each time after the loop (the code block) has been executed.
+
 Heads up!
 As you can see, the classic for loop has three components, or statements.
 
@@ -27,32 +32,43 @@ Now we've got the theory, let's look at a specific example.
 This example creates a for loop that prints numbers 1 through 5:
 
 for (i=1; i<=5; i++) { 
+
 document.write(i + "<br />"); 
+
 }
 
 So what's actually happening?
 
 In this example, Statement 1 sets a variable before the loop starts (var i = 1).
+
 Statement 2 defines the condition for the loop to run (it must be less than or equal to 5).
+
 Statement 3 increases a value (i++) each time the code block in the loop has been executed. (Оператор 3 увеличивает значение (i++) каждый раз, когда выполняется блок кода в цикле..)
 
 Statement 1 is optional, and can be left out, if your values are set before the loop starts.
 
 var i = 1; 
+
 for (; i<=5; i++) { 
+
 document.write(i + "<br />"); 
 }
 
 You can also initiate more than one value in statement 1, using commas (запятые) to separate them.
 
 for (i=1, text=""; i<=5; i++) { 
+
 text = i; 
+
 document.write(i + "<br />"); 
+
 }
+
 Heads up!
 ES6 introduces other for loop types; you can learn about them in the ES6 course later.
 
-The For Loop
+---
+## The For Loop ##
 
 If statement 2 returns true, the loop will start over again, if it returns false, the loop will end.
 
@@ -63,10 +79,15 @@ Statement 3 is used to change the initial variable. It can do anything, includin
 Statement 3 is also optional, but only if you increment your values inside the loop. Like this:
 
 var i = 0; 
+
 for (; i < 10; ) { 
+
 document.write(i); 
+
 i++; 
+
 }
+
 Heads up!
 You can have multiple nested for loops.
 
@@ -80,18 +101,26 @@ The while loop repeats through a block of code, but only as long as a specified 
 Here's the syntax:
 
 while (condition) { 
+
 code block 
+
 }
+
 Heads up!
 The condition can be any conditional statement that returns true or false.
 
 Ok, we've got the theory, let's look at a real example:
 
 var i=0; 
+
 while (i<=10) { 
+
 document.write(i + "<br />"); 
+
 i++; 
+
 }
+
 The loop in this code will continue to run as long as i is less than, or equal to, 10. And each time the loop runs, it will increase by 1.
 
 This will output the values from 0 to 10.
@@ -116,17 +145,29 @@ This loop will execute the code block once, before checking if the condition is 
 Here’s the Syntax:
 
 do { 
+
 code block 
+
 } 
+
 while (condition);
+
 Heads up!
 Note the semicolon used at the end of the do...while loop. This is important.
+
+
 Here’s a real example:
+
 var i=20; 
+
 do { 
+
 document.write(i + "<br />"); 
-i++; 
-} 
+
+i++;
+
+}
+
 while (i<=25); 
 
 This example prints out numbers from 20 to 25.
