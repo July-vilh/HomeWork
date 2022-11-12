@@ -19,6 +19,7 @@ Comparison Operators
 Check out this table to see a breakdown of comparison operators.
 
 Heads up!
+
 One important thing to remember when we use operators, is that they only work when they’re comparing the same data type; numbers with numbers, strings with strings, you get the idea.
 
 ---
@@ -40,6 +41,7 @@ Let's take a look at an example. Here we’ve connected two Boolean expressions 
 For this expression to be true, both conditions need to be true.
 
 + The first condition determines whether 4 is greater than 2, which is true.
+
 + The second condition determines whether 10 is less than 15, which is also true.
 
 ---
