@@ -12,7 +12,7 @@ break;
 
 }
 
-document.write(i + "<br />");
+document.write(i + "<br/>);
 
 }
 
@@ -37,7 +37,7 @@ continue;
 
 }
 
-document.write(i + "<br />");
+document.write(i + "<br/>);
 
 }
 
