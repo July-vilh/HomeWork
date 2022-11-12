@@ -102,36 +102,6 @@ So the browser will print out the second condition, as 7 is not greater than 10.
 Heads up!
 There's another way to do this check using the ? operator: a > b ? alert(a) : alert(b).
 
----
-## else if ##
-
-We've seen else, we've seen if, time to meet else if.
-
-The else if statement is useful because it lets us specify a new condition if the first condition is false.
-
-Like this:
-
-var course = 1; 
-
-if (course == 1) { 
-
-document.write(""<h1 HTML Tutorial<h1>"); 
-
-} else if (course == 2) { 
-
-document.write(""<h1 CSS Tutorial<h1>"); 
-
-} else { 
-
-document.write(""<h1 JavaScript Tutorial<h1>"); 
-
-}
-
-This is what's happening in the code above:
-
-+ if course is equal to 1, output "HTML Tutorial";
-
-+ else, if course is equal to 2, output "CSS Tutorial";
 
 + if none of the above condition is true, then output "JavaScript Tutorial";
 
