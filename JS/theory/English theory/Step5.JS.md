@@ -138,26 +138,3 @@ This is what's happening in the code above:
 Heads Up!
 The final else statement "ends" the else if statement and should be always written after the if and else if statements.
 
-else if
-
-The final else block will be executed when none of the conditions is true.
-
-Let's change the value of the course variable in our previous example.
-
-var course = 3; 
-
-if (course == 1) { 
-
-document.write(""<h1 HTML Tutorial<h1>"); 
-
-} else if (course == 2) { 
-
-document.write(""<h1 CSS Tutorial<h1>"); 
-
-} else { 
-
-document.write(""<h1 JavaScript Tutorial<h1>"); 
-
-}
-
-You can write as many else if statements as you need.
