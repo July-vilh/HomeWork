@@ -23,9 +23,9 @@
 
 Пример создания функции, которая будет выводить слова "Hello World!"
 
-function printText() {                   //Определение функции
+function printText() {                                                                        //Определение функции
 
-  document.write("Hello World!");        //Тело функции - вывод текста в документ
+  document.write("Hello World!");                                                             //Тело функции - вывод текста в документ
   
 };
 
