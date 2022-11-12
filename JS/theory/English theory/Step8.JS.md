@@ -12,10 +12,6 @@ break;
 
 }
 
-document.write(i + "<br/>);
-
-}
-
 In this example, once i reaches 5, it will break out of the loop.
 
 Heads up!
@@ -37,9 +33,6 @@ continue;
 
 }
 
-document.write(i + "<br/>);
-
-}
 
 Heads up!
 The value 5 is not printed, because continue skips that iteration of the loop.
