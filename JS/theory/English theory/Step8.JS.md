@@ -5,10 +5,11 @@ We've met the break statement earlier in this module, we use it to "jump out" of
 Like this:
 
 for (i = 0; i <= 10; i++) { 
-if (i == 5) { 
-break; 
-} 
-document.write(i + "<br />"); 
+
+if (i == 5) {
+
+break;
+
 }
 
 In this example, once i reaches 5, it will break out of the loop.
@@ -23,12 +24,15 @@ We're nearly done with module 3! One last thing to cover.
 
 Unlike the break statement, the continue statement breaks only one iteration in the loop, and continues with the next iteration.
 Like this:
-for (i = 0; i <= 10; i++) { 
-if (i == 5) { 
-continue; 
-} 
-document.write(i + "<br />"); 
+
+for (i = 0; i <= 10; i++) {
+
+if (i == 5) {
+
+continue;
+
 }
+
 
 Heads up!
 The value 5 is not printed, because continue skips that iteration of the loop.

@@ -7,18 +7,28 @@ Instead, we can use the switch statement to perform different actions based on d
 Here's what that looks like:
 
 switch (expression) { 
+
 case n1: 
+
 statements 
+
 break; 
+
 case n2: 
+
 statements 
+
 break; 
+
 default: 
+
 statements 
+
 }
 
 The switch expression is evaluated once. The value of the expression is compared with the values of each case, and if there’s a match, that block of code is executed.
 Heads up!
+
 You can achieve the same result with multiple if...else statements, but the switch statement is more effective in such situations.
 
 The switch Statement
@@ -27,18 +37,31 @@ The switch Statement
 Let's look at another example:
 
 var day = 2; 
+
 switch (day) { 
+
 case 1: 
+
 document.write("Monday"); 
+
 break; 
+
 case 2: 
+
 document.write("Tuesday"); 
+
 break; 
+
 case 3: 
+
 document.write("Wednesday"); 
+
 break; 
+
 default: 
+
 document.write("Another day"); 
+
 } 
 
 Simple, right?
@@ -60,21 +83,37 @@ Often there will be no match, but we still need the program to output something.
 Like this:
 
 var color ="yellow"; 
+
 switch(color) { 
+
 case "blue": 
+
 document.write("This is blue."); 
+
 break; 
+
 case "red": 
+
 document.write("This is red."); 
+
 break; 
+
 case "green": 
-document.write("This is green."); 
+
+document.write("This is green.");
+
 break; 
+
 case "orange": 
+
 document.write("This is orange."); 
+
 break; 
+
 default: 
+
 document.write("Color not found."); 
+
 } 
 
 Heads up!
