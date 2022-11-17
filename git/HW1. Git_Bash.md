@@ -6,7 +6,7 @@ Professional@User-PC MINGW64 ~
 
 $ pwd
 
-/c/Users/Professio
+/c/Users/Professional
 
 + Создать папку 
 
