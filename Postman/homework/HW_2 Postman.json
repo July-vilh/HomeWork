@@ -7,7 +7,7 @@ pm.test("Status code is 200", function () {
 // 3.Проверить, что в body приходит правильный string.
 
 pm.test("Body matches string", function () {
-    pm.expect(pm.response.text()).to.include("This is the first responce from server!ss");
+    pm.expect(pm.response.text()).to.include("This is the first responce from server!");
 });
 
 
