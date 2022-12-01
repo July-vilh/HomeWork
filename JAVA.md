@@ -1,5 +1,5 @@
 # JAVA #
-Example: System.out.println("Write once, run anywhere!");
+Example: System.out.println ("Write once, run anywhere!");
 
 1. The println method is used to output a line of text. It is part of the out stream, which is part of the System class.
 println 
@@ -106,3 +106,25 @@ String name;
 This creates a variable called name of type String. Now, our variable name can hold String values.
 In programming terms, the process of creating a variable is called declaration (объявление переменной).
 
+After declaring our variable, we can assign it a value using the assignment = operator:
+
+String name;
+
+name = "James";
+
+Note, that the type String should start with a capital letter S. A lowercase version will cause an error.
+
+We can combine the declaration and assignment into one statement, like this:
+
+String name = "James";
+
+This is handy when we already know the value for our variable and makes the code shorter and more readable.
+
+A variable can change its value during the program multiple times. For example, the player of a game can change his name:
+String name = "James";
+
+name = "David";
+
+System.out.println(name);
+
+result = David!
