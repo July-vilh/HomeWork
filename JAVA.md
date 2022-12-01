@@ -7,21 +7,30 @@ The println method takes the text you want to output as an argument inside paren
 When printing text outputs, you need to enclose the text in double quotes (двойные кавычки)
 
 2. You don't need the quotes when you output numbers.
+
 For example:
+
 System.out.println(42);
 
 3. You can use the println method multiple times:
 
 System.out.println("Top Players:");
+
 System.out.println("1. James");
+
 System.out.println("2. Amy");
 
 ## Java Program ##
-Example: 
+Example:
+
 class Demo {
+
   public static void main(String[] args) {
+  
     System.out.println("Hi there");
+    
   }
+  
 }
 
 2.1. class Demo {
@@ -51,11 +60,17 @@ when we run our program.
 2.4. The main method can contain multiple statements, for example:
 
 class Demo {
+
   public static void main(String[] args) {
+  
     System.out.println("Welcome");
+    
     System.out.println("This is a demo"); 
+    
     System.out.println("Bye");
+    
   }
+  
 }
 
 ## Variables (Переменные) ##
@@ -67,3 +82,17 @@ The name can be used to refer to the value later in the program.
 Имя может быть использовано для ссылки на значение позже в программе.
 
 For example, in game development, you would use a variable to store how many points the player has scored.
+
+Every variable has a type, which defines the type of the value it holds. A variable can hold a text value, a number, a decimal, etc.
+We are already familiar with text values - they are created using quotes:
+
+"this is some text"
+
+Text in quotes is called a String.
+
+Let's create a variable of type String:
+String name;
+
+This creates a variable called name of type String. Now, our variable name can hold String values.
+In programming terms, the process of creating a variable is called declaration (объявление переменной).
+
