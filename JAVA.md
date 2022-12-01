@@ -20,6 +20,7 @@ System.out.println("1. James");
 
 System.out.println("2. Amy");
 
+
 ## Java Program ##
 Example:
 
@@ -39,14 +40,19 @@ The first line of the code defines a class called Demo. In Java, every line of c
 You can call the class anything you want.
 
 The class opens and closes using curly brackets, like this:
+
 class Demo {
 
 }
 Any code that we want to include in the class needs to go inside the brackets.
 
+
+
 2.2. public static void main(String[] args) {
 
 In Java, each application has an entry point, or a starting point, which is a method called main.
+
+
 
 2.3. Notice that the main method, similar to the class, opens and closes with curly brackets.
 
@@ -56,6 +62,8 @@ public static void main(String[] args) {
 
 The main method contains the code that executes (выполняется) when we run our program. In this case, the println method will be executed (будет выполнен), 
 when we run our program.
+
+
 
 2.4. The main method can contain multiple statements, for example:
 
@@ -72,6 +80,8 @@ class Demo {
   }
   
 }
+
+
 
 ## Variables (Переменные) ##
 
