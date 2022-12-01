@@ -161,3 +161,109 @@ This means that the calculations that use floats are faster than the ones that u
 
 As a general rule: use float instead of double when memory usage is critical. If you need more precise computations, for example, when dealing with currency, use double.
 Как общее правило: используйте float вместо double, когда использование памяти критично. Если вам нужны более точные вычисления, например, при работе с валютой, используйте double.
+
+## Characters ##
+
+The char type is used to hold a single character. It is created similar to Strings, however it uses single quotes for the value:
+
+char letter = 'B';
+
+result = B
+
+VALIUE IN SINGLE QUOTES!
+
+## Boolean ##
+
+It can hold only the values true or false. This is handy when we work with states or conditions, for example:
+
+boolean isOpen = false;
+
+For example, the boolean above can show whether a shop is open or closed.
+
+## Doing Math ##
+
+### 1. You can use common math operators to perform calculations. For example: ###
+
+int x = 6;
+
+int y = 3;
+
+The result can be assigned to another variable, like this:
+
+double price1 = 24.99;
+
+double price2 = 19.45;
+
+double sum = price1 + price2;
+
+System.out.println(x+y);
+
+### 2. Similarly, you can use - for subtraction (вычитание): ###
+
+int salary = 90000;
+
+int tax = 15000;
+
+int result = salary - tax;
+
+### 3. Multiplication ###
+
+The * operator multiplies two values.
+
+Let's use it to find how much is 20% of the given value:
+
+int price = 1200;
+
+System.out.println(price*0.2);
+
+### 4. Division (поделить) ###
+
+The / operator divides one value by another. The following program calculates how many products with the given price you can buy with the given amount:
+
+int amount = 9000;
+
+int price = 49;
+
+int result = amount/price;
+
+System.out.print(result);
+
+
+In the example above, the result of the division equation will be a whole number, as int is used as the data type. 
+result: 183
+
+You can use double to get the result of the division with a decimal point.
+
+double amount = 9000;
+
+double price = 49;
+
+double result = amount/price;
+
+System.out.print(result);
+
+result = 183.6734693877551
+
+### 5.Modulo (остаток от деления) ###
+
+The modulo % (or remainder) math operation returns the remainder of a division. For example, let's use it to find how many of the given items will be left over if we place them in boxes of 5:
+
+int items = 23;
+
+int res = items % 5;
+
+result = 3
+
+## Strings ##
+
+Java allows to add together strings, using the + operator. The result is the combination of the strings. For example, let's combine the first and last names to result in the full name of a user:
+
+String firstname = "James";
+
+String lastname = "Smith";
+
+String fullname = firstname+lastname;
+
+Note, that the result will combine the given strings without any separator. We can add a space " " between them:
+
+String fullname = firstname+" "+lastname;
