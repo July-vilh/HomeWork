@@ -267,3 +267,11 @@ String fullname = firstname+lastname;
 Note, that the result will combine the given strings without any separator. We can add a space " " between them:
 
 String fullname = firstname+" "+lastname;
+
++ is addition
+
+- is subtraction
+
+/ is division
+
+% finds the remainder of a division.
