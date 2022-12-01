@@ -128,3 +128,36 @@ name = "David";
 System.out.println(name);
 
 result = David!
+
+## Types ##
+
+1. The int type is used to store whole numbers (or integers, as we call them in programming).
+
+int age = 42;
+
+Now, the age variable of type int holds the value 42.
+
+2. Decimals
+2.1. To work with decimal numbers, use the type double:
+
+double weight = 12.5;
+
+2.2. Java has another type for decimals called float.
+When using the float type, you need to use an f postfix after the value:
+
+float height = 1.94f;
+
+This tells Java to use the value as a float, instead of double.
+
+### float vs dobule ###
+
+By default, decimal values are of type double. float is using less storage in the memory, but is not as precise as the double type.
+
+float использует меньше места в памяти, но не так точен, как тип double.
+
+This means that the calculations that use floats are faster than the ones that use double, however, the result is less accurate in terms of the decimal digits.
+Это означает, что вычисления, использующие числа с плавающей запятой, выполняются быстрее, чем те, которые используют double, однако результат менее точен с точки зрения десятичных цифр.
+
+
+As a general rule: use float instead of double when memory usage is critical. If you need more precise computations, for example, when dealing with currency, use double.
+Как общее правило: используйте float вместо double, когда использование памяти критично. Если вам нужны более точные вычисления, например, при работе с валютой, используйте double.
