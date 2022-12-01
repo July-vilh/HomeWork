@@ -1,4 +1,4 @@
-# JAVA #
+# JAVA. Part1. #
 Example: System.out.println ("Write once, run anywhere!");
 
 1. The println method is used to output a line of text. It is part of the out stream, which is part of the System class.
