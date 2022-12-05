@@ -33,4 +33,38 @@
 //Задание2. После получения запроса ws_1 отправляет запрос на ws_2. POST. 
 //Body: json {'type': 'padawan', 'spec': 'QA', 'ex': '1', 'current_user': {'uid': YOUR_ID, 'uip:': ‘YOUR_IP’}}
 
+//Request:
+{"type": "padawan", 
+"spec": "QA", 
+"ex": "1", 
+"current_user": 
+{"uid": 2, "uip:": "0.0.0.0"}
+}
+
+//Response:
+{
+    "current_user": {
+        "uid": 2,
+        "uip:": "0.0.0.0"
+    },
+    "ex": "1",
+    "spec": "QA",
+    "type": "padawan",
+    "user_divices_data": {
+        "comp": {
+            "model": "Macbook",
+            "monitor_diagonal": 16,
+            "ram": 32,
+            "resolution": [
+                "Liquid Retina XDR",
+                "3456x2234"
+            ],
+            "ssd": 1000,
+            "year": 2021
+        },
+        "mobile": {}
+    }
+}
+
+//Баг локализован во втором веб-сервисе, т.к. от него отправляется пустой массив mobile
 
