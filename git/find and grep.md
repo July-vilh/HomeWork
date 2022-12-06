@@ -159,7 +159,7 @@ $ find . -name 'f2.txt'
 
 Professional@User-PC MINGW64 /c/dev/git
 
-$ find . -name '*txt*'
+$ find . -name 'звездочка txt звездочка' (звездочки означают "все что угодно")
 
 ./HomeWork/terminal_2/r1/f1.txt
 
@@ -176,7 +176,7 @@ $ find . -name '*txt*'
 
 Professional@User-PC MINGW64 /c/dev/git/HomeWork (main)
 
-$ find . -name '*f1*'
+$ find . -name 'звездочка f1 звездочка'
 
 13.	Добавить папки
 
@@ -192,7 +192,7 @@ $ mkdir r1/inner_folder_f1
 
 Professional@User-PC MINGW64 /c/dev/git/HomeWork/terminal_2 (main)
 
-$ find . -name '*f1*'
+$ find . -name 'звездочка f1 звездочка'
 
 ./r1/f1.txt
 
@@ -208,7 +208,7 @@ $ find . -name '*f1*'
 
 Professional@User-PC MINGW64 /c/dev/git/HomeWork/terminal_2 (main)
 
-$ find . -type f -name '*f1*'
+$ find . -type f -name 'звездочка f1 звездочка'
 
 ./r1/f1.txt
 
@@ -220,7 +220,7 @@ $ find . -type f -name '*f1*'
 
 Professional@User-PC MINGW64 /c/dev/git/HomeWork/terminal_2 (main)
 
-$ find . -type d -name '*f1*'
+$ find . -type d -name 'звездочка f1 звездочка'
 
 ./r1/inner_f1
 
@@ -230,7 +230,7 @@ $ find . -type d -name '*f1*'
 
 Professional@User-PC MINGW64 /c/dev/git
 
-$ find . -type d -name '*f1*'
+$ find . -type d -name 'звездочка f1 звездочка'
 
 ./HomeWork/.git/objects/f1
 
@@ -355,7 +355,7 @@ grep: input file ‘copy_lines.txt’ is also the output
 
 Professional@User-PC MINGW64 /c/dev/git/HomeWork/terminal_2 (main)
 
-$ grep -r line_10 . > ccopy_lines.txt
+$ grep -r line_10 . > cсopy_lines.txt
 
 grep: input file ‘./ccopy_lines.txt’ is also the output
 
