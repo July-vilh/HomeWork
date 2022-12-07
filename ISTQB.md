@@ -92,3 +92,22 @@ ____________________________
 ### 3. System testing ###
 
 ### 4. Acceptance testing ###
+
+_____
+### Errores of testers: ###
+
+#### 1. False Positive ####
+
+Means the risk something
+
+- Finding the defects 
+
+- We found a defect, but we were wrong/false (it is not a defect)
+
+#### 2. False Negative ####
+
+Means the risk nothing 
+
+- We didn't find a defect 
+
+- We didn't find a defect, but there is a defect in functionality (ex. the end customer find a defect)
