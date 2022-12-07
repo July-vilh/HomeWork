@@ -111,3 +111,20 @@ Means the risk nothing
 - We didn't find a defect 
 
 - We didn't find a defect, but there is a defect in functionality (ex. the end customer find a defect)
+____
+
+Root cause = первопричинный (изначальный)
+
+Removed = устранение
+
+Decreased = уменьшение
+
+The occurence = вероятность возникновения
+
+contribution = способствовать
+
+___
+
+1. Root cause (глосс.) = a source of a defect such that if it is removed (устранение), the occurence (вероятность возникновения) of the defect type is decreased (уменьшается)
+
+2. The Root causes (ISTQB syll.) of defects are the earliest actions or conditions that contributed (способствовало) to creating the defects
