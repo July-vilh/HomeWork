@@ -128,3 +128,13 @@ ___
 1. Root cause (глосс.) = a source of a defect such that if it is removed (устранение), the occurence (вероятность возникновения) of the defect type is decreased (уменьшается)
 
 2. The Root causes (ISTQB syll.) of defects are the earliest actions or conditions that contributed (способствовало) to creating the defects
+
+improvement = усовершенствование
+
+prevent = предотвратить 
+
+significate = значительный
+
+___
+
+Root cause analysis can lead to process improvents that prevent a significant number of future defects from being introduced
