@@ -1,0 +1,70 @@
+//Есть 2 ws.
+//WS_1: http://162.55.220.72:5011/user
+//WS_2: http://23.88.52.139:5012/users_team
+
+//Задание1. WS_1 получает запрос от клиента. POST. Body: json {"user_id":1} Вставьте свой уникальный user_id.
+
+{
+    "user_divices_data": {
+        "comp": {
+            "model": "Macbook",
+            "monitor_diagonal": 16,
+            "ram": 32,
+            "resolution": [
+                "Liquid Retina XDR",
+                "3456x2234"
+            ],
+            "ssd": 1000,
+            "year": 2021
+        },
+        "mobile": {}
+    },
+    "user_static_data": {
+        "current_user": {
+            "uid": 99,
+            "uip:": "178.134.155.82"
+        },
+        "ex": "1",
+        "spec": "QA",
+        "type": "padawan"
+    }
+}
+
+//Задание2. После получения запроса ws_1 отправляет запрос на ws_2. POST. 
+//Body: json {'type': 'padawan', 'spec': 'QA', 'ex': '1', 'current_user': {'uid': YOUR_ID, 'uip:': ‘YOUR_IP’}}
+
+//Request:
+{"type": "padawan", 
+"spec": "QA", 
+"ex": "1", 
+"current_user": 
+{"uid": 2, "uip:": "0.0.0.0"}
+}
+
+//Response:
+{
+    "current_user": {
+        "uid": 2,
+        "uip:": "0.0.0.0"
+    },
+    "ex": "1",
+    "spec": "QA",
+    "type": "padawan",
+    "user_divices_data": {
+        "comp": {
+            "model": "Macbook",
+            "monitor_diagonal": 16,
+            "ram": 32,
+            "resolution": [
+                "Liquid Retina XDR",
+                "3456x2234"
+            ],
+            "ssd": 1000,
+            "year": 2021
+        },
+        "mobile": {}
+    }
+}
+
+//Баг локализован во втором веб-сервисе, т.к. от него отправляется пустой массив mobile
+
