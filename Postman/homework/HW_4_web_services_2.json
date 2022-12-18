@@ -122,7 +122,7 @@
     ]
 }
 
-//Баг в методе POT: отсутствует в json ключ job posting
+//Баг в методе POST: отсутствует в json ключ job posting
 
 
 
