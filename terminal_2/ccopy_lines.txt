@@ -1,6 +1,0 @@
-./copy_lines.txt:r3/f1.txt:line_100
-./copy_lines.txt:r3/f2.txt:line_100
-./copy_lines.txt:r3/f3.txt:line_100
-./r3/f1.txt:line_100
-./r3/f2.txt:line_100
-./r3/f3.txt:line_100
